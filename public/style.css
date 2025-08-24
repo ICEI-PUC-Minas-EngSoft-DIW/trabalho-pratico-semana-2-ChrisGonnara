@@ -1,0 +1,110 @@
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Centraliza o conteúdo principal e adiciona uma sombra */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para as seções do currículo */
+.secao {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+h1, h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Estilo do menu de navegação */
+.menu {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+/* Estilo da foto de perfil */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+    margin-bottom: 10px;
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os cards de Educação */
+.card {
+    border-left: 3px solid #007bff;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.detalhes {
+    font-style: italic;
+    color: #666;
+}
+
+/* Estilo da lista de habilidades */
+.lista-habilidades {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.lista-habilidades li {
+    background-color: #e9e9e9;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
