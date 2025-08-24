@@ -1,0 +1,159 @@
+/* Estilos Gerais do Corpo da Página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos do Menu de Navegação */
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky; /* Menu fixo no topo ao rolar a página */
+    top: 0;
+    z-index: 1000;
+}
+
+.menu nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu nav a:hover {
+    background-color: #575757;
+}
+
+/* Estilos do Container Principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Permite que o container ocupe o espaço restante */
+}
+
+/* Estilos da Seção de Perfil */
+.perfil {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    margin-bottom: 15px;
+}
+
+.perfil h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.perfil p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.contato {
+    margin-top: 15px;
+}
+
+.contato p {
+    margin: 5px 0;
+}
+
+.contato a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos das Seções Gerais */
+.secao {
+    margin-bottom: 30px;
+}
+
+.secao h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+/* Estilos dos Cards (Educação) */
+.card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+.card .detalhes {
+    font-style: italic;
+    color: #666;
+    margin: 0;
+}
+
+/* Estilos da Lista de Habilidades */
+.lista-habilidades {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.lista-habilidades li {
+    background-color: #e2e2e2;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #555;
+    transition: background-color 0.3s;
+}
+
+.lista-habilidades li:hover {
+    background-color: #d1d1d1;
+}
+
+/* Estilos do Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto; /* Empurra o rodapé para o final da página */
+}
